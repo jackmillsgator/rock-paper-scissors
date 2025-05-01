@@ -31,5 +31,13 @@ function getComputerChoice()
 
 }
 
-let result = getComputerChoice();
-console.log(result);
+function getHumanChoice()
+{
+
+
+    let userChoice = prompt("What is your human choice?");
+    
+    return userChoice;
+
+}
+
